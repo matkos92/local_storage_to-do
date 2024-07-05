@@ -1,12 +1,3 @@
-/*LOCAL STORAGE
-▸ Możemy tam zachować dane i odczytać je przy następnym
-odwiedzeniu strony
-▸ localStorage.setItem(„klucz”,”wartość”)
-▸ localStorage.getItem(„klucz”)
-▸ Do przechowywania innych typów niż string można
-wykorzystać JSON.stringify() oraz JSON.parse() */
-
-
 const addTodo = () => {
   let todoText = document.getElementById("todo-text").value;
   if (todoText != "") {
